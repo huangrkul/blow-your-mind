@@ -1,0 +1,56 @@
+@import 'index.css';
+@import 'fonts.css';
+@import 'game.css';
+@import 'about.css';
+@import 'gamelose.css';
+@import 'gamewin.css';
+@import 'animation.css';
+
+/* color guide */
+.site-yellow-lgt  {color: #d1a056}
+.site-yellow      {color: #d1881b}
+.site-yellow-drk  {color: #bf7719}
+.site-brown       {color: #874F1D}
+.site-red         {color: #b80117}
+.site-red-drk     {color: #562c2c}
+.site-black       {color: #261E1c}
+
+/* global css */
+.bg {
+  background-image: url('../img/bgpattern.jpg');
+  background-size: contain;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p {
+  padding-top: 1em;
+  font-weight: bold;
+}
+
+footer a {
+  color: #562c2c;
+}
+
+footer a:hover {
+  color: #b80117;
+}

@@ -1,0 +1,239 @@
+.fadeout-top {
+  -webkit-animation: fadeout-top 800ms ease-in forwards ;
+  animation: fadeout-top 800ms ease-in forwards ;
+}
+@-webkit-keyframes fadeout-top {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+  }
+}
+@keyframes fadeout-top {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+}
+
+.shake {
+  -webkit-animation: shake 500ms forwards ;
+  animation: shake 500ms forwards ;
+}
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translateX(0px);
+  }
+  20% {
+    -webkit-transform: translateX(-10px);
+  }
+  40% {
+    -webkit-transform: translateX(10px);
+  }
+  60% {
+    -webkit-transform: translateX(-5px);
+  }
+  80% {
+    -webkit-transform: translateX(5px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+  }
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateX(-10px);
+  }
+  40% {
+    transform: translateX(10px);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+  80% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.zoom-enter {
+  -webkit-animation: zoomenter 400ms ease-in  forwards ;
+  animation: zoomenter 400ms ease-in  forwards ;
+}
+@-webkit-keyframes zoomenter {
+  0% {
+    -webkit-transform: scale(0, 0);
+    opacity: 0;
+  }
+  80% {
+    -webkit-transform: scale(1.1, 1.1);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+@keyframes zoomenter {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+.enter-bottom {
+  -webkit-animation: enter-bottom 400ms ease-in-out  forwards ;
+  animation: enter-bottom 400ms ease-in-out  forwards ;
+}
+@-webkit-keyframes enter-bottom {
+  0% {
+    -webkit-transform: translateY(360px);
+    opacity: 0;
+  }
+  80% {
+    -webkit-transform: translateY(-10px);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes enter-bottom {
+  0% {
+    transform: translateY(360px);
+    opacity: 0;
+  }
+  80% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fadezoombump{
+  -webkit-animation: zoombump 400ms ease-in  forwards ;
+  animation: zoombump 400ms ease-in  forwards ;
+}
+@-webkit-keyframes zoombump {
+  0% {
+    -webkit-transform: scale(0, 0);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: scale(1.05, 1.05);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: scale(0.95, 0.95);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+@keyframes zoombump {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.05, 1.05);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(0.95, 0.95);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+.fadezoombump-hero{
+  -webkit-animation: zoombump-big 600ms ease-in  forwards ;
+  animation: zoombump-big 600ms ease-in  forwards ;
+}
+@-webkit-keyframes zoombump-big {
+  0% {
+    -webkit-transform: scale(0, 0);
+    opacity: 0;
+  }
+  40% {
+    -webkit-transform: scale(1.1, 1.1);
+    opacity: 1;
+  }
+  60% {
+    -webkit-transform: scale(0.9, 0.9);
+    opacity: 1;
+  } 
+  80% {
+    -webkit-transform: scale(1.02, 1.02);
+    opacity: 1;
+  }
+  90% {
+    -webkit-transform: scale(0.98, 0.98);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+@keyframes zoombump-big {
+  0% {
+    transform: scale(0, 0);
+    opacity: 0;
+  }
+  40% {
+    transform: scale(1.1, 1.1);
+    opacity: 1;
+  }
+  60% {
+    transform: scale(0.9, 0.9);
+    opacity: 1;
+  } 
+  80% {
+    transform: scale(1.02, 1.02);
+    opacity: 1;
+  }
+  90% {
+    transform: scale(0.98, 0.98);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
